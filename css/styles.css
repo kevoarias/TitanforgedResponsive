@@ -1,0 +1,248 @@
+html{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(255, 255, 255);
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "myheader"
+    "mymain"
+    "myaside" /*--creo una seccion mas para hacer otra division en la pagina--*/
+    "myfooter";
+    grid-template-rows: 150px 1fr 50px 130px;
+    margin: 0;
+}
+#top{
+    margin-top: 30px;
+}
+header{
+    grid-area: myheader;
+    background-color: #4f4f4f;
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+main{
+    grid-area: mymain;
+}
+aside{/*--creo una seccion mas para hacer otra division el la pagina--*/
+    grid-area: myaside;
+}
+ul{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+li{
+    border: solid black 1px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 10px;
+}
+a{
+    text-decoration: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+#logo{
+    float: left;
+    width: 30px;
+    height: 80px;
+}
+form{
+    margin-left: 40px;
+}
+#cuadro{
+
+    width: 500px;
+}
+.cuadro.succes input{
+    border-color: rgb(75, 226, 77);
+}
+.cuadro.error input{
+    border-color: rgb(219, 16, 16);
+}
+.cuadro.error small{
+    visibility: visible;
+}
+
+.formu{
+    border: 1px solid black;
+    padding: 0.2rem;
+    margin-left: 10px;
+}
+.images{
+    width: 750px;
+    height: 500px;
+}
+.coches{
+    width: 400px;
+    height: 750px;
+
+}
+.texto{
+    float: right;
+}
+.lorem{
+    text-align: left;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-top: 10px;
+    font-size: 18px;
+}
+#ubicate{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.email{
+    color: rgb(169, 169, 253)
+}
+footer{
+    grid-area: myfooter;
+    margin: 0;
+    background-color: #4f4f4f;
+    opacity: 0.8;
+    padding: 2rem;
+}
+.pie{
+    color: rgb(255, 255, 255);
+}
+.izquierda{
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.logos{
+    float: left;
+    margin-left: 5rem;
+}
+#copyri{
+    color:rgb(169, 169, 253);
+}
+.inicio{
+    background-color: rgb(169, 169, 253);
+}
+#insertar{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.face{
+    width: 30px;
+    height: 30px;
+}.ins{
+    width: 30px;
+    height: 30px;
+}
+small{
+    background-color: red;
+    border-radius: .1rem;
+    padding: .2rem;
+    color: white;
+    visibility: hidden;
+}
+#botones{
+    margin-left: 45px;
+}
+#commentForm{
+    margin-top: 180px;
+}
+
+/*sliders productos*/
+.vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content{
+    height: 400px;
+    width: 750px;
+    position: relative;
+}
+.content .images img{
+    height: 100%;
+    width: 100%;
+}
+.slide{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: rgb(255, 255, 252, 0.1);
+   
+}
+.slide:hover{
+    background-color: rgb(255, 255, 252, 0.3);
+}
+.right{
+    right: 0;
+}
+
+.slide i{
+    color: white;
+}
+.btn-slides{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+    transform: translateY(400%);
+    margin-top: 50px;
+}
+.btn-slides span{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid 2px white;
+    margin: 0 3px;
+    cursor: pointer;
+}
+#mapita{
+        height: 200px; /* Ajusta la altura según sea necesario */
+        width: 10%;
+}
+#midiv{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+.navbar, .navbar-collapse {
+    background-color: #f8f9fa; /* Cambia este color al que prefieras */
+}
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.gallery img {
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+.footer .navbar-collapse {
+    justify-content: center;
+}
+.footer .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .navbar-nav .nav-link {
+    padding: 0;
+}
+.footer .logos img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+#mapa {
+    height: 400px; /* O el valor que prefieras */
+    width: 100%; /* Para que ocupe todo el ancho del contenedor */
+}

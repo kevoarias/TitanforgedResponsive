@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <noticia>
+        <titulo>Ferrari: Pasión por la Velocidad</titulo>
+        <fecha>2024-01-22</fecha>
+        <contenido>
+            Ferrari es sinónimo de pasión por la velocidad y el rendimiento. Sus impresionantes diseños y motores potentes hacen que cada Ferrari sea una obra maestra de ingeniería automotriz.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>Koenigsegg: Innovación y Exclusividad</titulo>
+        <fecha>2024-01-21</fecha>
+        <contenido>
+            Koenigsegg es reconocida por su innovación y exclusividad en el mundo de los superdeportivos. Cada modelo es una combinación de tecnología avanzada, rendimiento extraordinario y diseño impresionante.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>Lamborghini: Potencia y Estilo Italiano</titulo>
+        <fecha>2024-01-20</fecha>
+        <contenido>
+            Lamborghini representa la esencia del lujo, la potencia y el estilo italiano en el mundo automotriz. Sus vehículos impresionan con su diseño audaz, prestaciones extraordinarias y un sonido inconfundible.
+        </contenido>
+    </noticia>
+    <noticia>
+        <titulo>Aston Martin: Elegancia Británica y Rendimiento</titulo>
+        <fecha>2024-01-19</fecha>
+        <contenido>
+            Aston Martin personifica la elegancia británica y el rendimiento excepcional. Cada modelo combina un diseño sofisticado con un rendimiento emocionante, convirtiéndolo en una opción deseada para los amantes de los autos deportivos de alto nivel.
+        </contenido>
+    </noticia>
+</noticias>

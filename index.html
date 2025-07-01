@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto d-lg-none" href="#">
+                <img src="imagenes/TITAN.png" alt="Titan Logo" style="max-width: 100%; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand d-none d-lg-block" href="#">
+                    <img src="imagenes/TITAN.png" alt="Titan Logo" style="height: 80px;">
+                </a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item inicio">
+                        <a class="nav-link" href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/contacto.html">UBICACIÓN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="vision">
+        <div class="content d-none d-lg-block">
+            <div class="images">
+                <img class="coches" src="../imagenes/foto1.jpg" alt="coches_de_lujo" width="700" height="400"> <p class="texto"></p>
+                <img class="coches" src="../imagenes/foto2.webp" alt="coches_de_lujo" width="700" height="400"> <p class="texto"></p>
+                <img class="coches" src="../imagenes/foto3.jpg" alt="coches_de_lujo" width="700" height="400"> <p class="texto"></p>
+                <img class="coches" src="../imagenes/foto4.jpg" alt="coches_de_lujo" width="700" height="400"> <p class="texto"></p>
+                <img class="coches" src="../imagenes/foto5.jpg" alt="coches_de_lujo" width="700" height="400"> <p class="texto"></p>
+            </div>
+            
+            <div class="slide left">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="slide right">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="btn-slides">
+                <span class="btn" id="btn-1"></span>
+                <span class="btn" id="btn-2"></span>
+                <span class="btn" id="btn-3"></span>
+                <span class="btn" id="btn-4"></span>
+                <span class="btn" id="btn-5"></span>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="display-4">About Us</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 sm-4">
+                        <div class="card">
+                            <img src="imagenes/foto1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 sm-4">
+                        <div class="card">
+                            <img src="imagenes/foto2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-sm">
+                        <div class="card">
+                            <img src="imagenes/foto3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-start">
+                <div>Telefono: 11111111</div>
+                <div>Email: <a id="email" href="mailto:titanforged@gmail.com">titanforged@gmail.com</a></div>
+                <div>Código postal: 38099</div>
+                <div><a id="copyri" href="https://copyright.es/">Copy right 2021</a></div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#footerNav" aria-controls="footerNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="footerNav">
+                <ul class="navbar-nav ms-auto logos">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/">
+                            <img src="imagenes/Facebooklogo.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/">
+                            <img src="imagenes/insta.jpeg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
